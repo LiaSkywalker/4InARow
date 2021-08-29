@@ -1,0 +1,35 @@
+Hi :)
+This is my final exercise from "introduction to computer science" course.
+In this code I created a 4 In A Row game.
+The game is run from the file "four_in_a_row.py"
+Hope you will enjoy it!
+
+==================
+=  Description:  =
+==================
+this directory include the file
+four_in_a_row.py
+README
+
+files directory:
+gui.py
+game.py
+ai.py
+and all the pictures for the game
+
+======================
+=  Special Comments  =
+======================
+the game start running in four_in_a_row.py file.
+when the running starts- a screen of the game type selection is created.
+after that- the user choice is updated in the game class, and the game screen is created.
+
+the ai method is called while ai player take turn.
+the logic of ai class running is simple- choose a random column, and check if it legal.
+if it legal- return the column. else, choose another column.
+
+class content:
+*Game- functions of the logic of the board. check legal placing,
+the players configuartion and more..
+*Opening_menu- create the opening menu, and take selection from the user
+*Game_menu- create the game menu, and run the game during the given configuration.
